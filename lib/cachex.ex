@@ -1218,7 +1218,7 @@ defmodule Cachex do
   Creates a `Stream` of entries in a cache.
 
   This will stream all entries matching the provided match specification
-  as the second argument. If none if provided, it will default to all entries
+  as the second argument. If none is provided, it will default to all entries
   which are yet to expire (in no particular order).
 
   Consider using `Cachex.Query` to generate match specifications used when
